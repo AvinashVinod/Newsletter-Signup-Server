@@ -66,7 +66,7 @@ app.post("/",(req,res)=>{
 
 
 
-app.listen(process.env.PORT || 3000 ,()=>{   //process.env.PORT is to get the random port which will be provided ny heroku.
+app.listen(process.env.MAILCHIMP_API_KEY || 3000 ,()=>{   //process.env.PORT is to get the random port which will be provided ny heroku.
     console.log("Your Server has been started.");
 });
 
