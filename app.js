@@ -69,8 +69,3 @@ app.post("/",(req,res)=>{
 app.listen(process.env.PORT || 3000 ,()=>{   //process.env.PORT is to get the random port which will be provided ny heroku.
     console.log("Your Server has been started.");
 });
-
-
-//API Key of Mailchimp => 993c782bce58c54ae2e91e8033b39aaa-us21.
-
-//c09bdf6d32 mailchimp audience id.
